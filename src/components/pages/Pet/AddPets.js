@@ -17,7 +17,6 @@ function AddPet() {
     const navigate = useNavigate()
 
     async function registerPet(pet) {
-        let msgType = 'success'
 
         const formData = new FormData()
 
